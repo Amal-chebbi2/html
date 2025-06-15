@@ -1,0 +1,123 @@
+/* General reset and body */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navbar styling */
+nav {
+  background-color: #0d6efd;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+
+
+/* Header */
+h1 {
+  text-align: center;
+  margin: 2rem 0 1rem;
+  color: #0d6efd;
+  font-size: 2.5rem;
+}
+
+/* Sections */
+section {
+  padding: 2rem;
+  background-color: white;
+  margin: 1rem auto;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Section headings */
+section h2 {
+  color: #0d6efd;
+  border-bottom: 2px solid #0d6efd;
+  padding-bottom: 0.5rem;
+}
+
+/* Paragraphs */
+p {
+  font-size: 1.1rem;
+}
+
+
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+/* Contact footer */
+#contact ol {
+  padding-left: 1.5rem;
+}
+
+footer {
+  background-color: #0d6efd;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* Image */
+img {
+  display: block;
+  margin: 2rem auto;
+  max-width: 300px;
+  border-radius: 15px;
+}
+
+/* YouTube iframe */
+iframe {
+  display: block;
+  margin: 2rem auto;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Form */
+form {
+  background-color: white;
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border-radius: 10px;
+  
+}
+
+form label {
+  
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+form input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
