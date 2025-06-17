@@ -1,0 +1,36 @@
+ALGORITHM phrase
+VAR
+    ch:STRING;
+   nbr des mot ,nbr des words,nbr des voyel:INTEGER;
+  
+  
+     nbr des caractere =0;
+    nbr des words=1;
+    nbr des voyel=0;
+     i: INTEGER:=0;
+
+     
+BEGIN
+    WRITE("Entrez une phrase terminée par un point : ")
+    READ(ch)
+   
+   WHILE (ch(i) <> ".") DO
+    nombre des carasteres=   nombre des carasteres+1;
+  
+    
+    
+
+IF (ch[i]=" ") THEN
+    nbrwords =  nbrwords+1
+END_IF
+IF (ch(i)= " ") THEN
+    nbrVoyelles = nbrVoyelles + 1
+END_IF
+ i++
+  END_WHILE
+
+
+    WRITE("Nombre de caractères : ", nbrCaracteres)
+    WRITE("Nombre de mots : ", nbrMots)
+    WRITE("Nombre de voyelles : ", nbrVoyelles)
+END
